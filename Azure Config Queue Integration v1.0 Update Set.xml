@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-05-21 20:48:23">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Azure Config Queue Integration v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>ea71accfdb8a5340e68af05e0f9619b1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>de85a9d8db52db009c69f8231f96196d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_poll_frequency</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_poll_frequency" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Poll frequency (minutes)&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;15&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_poll_frequency&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;7edd3890db12db009c69f8231f961908&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Poll frequency (minutes)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_poll_frequency&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:46:39&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1646589256</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1285a9d8db52db009c69f8231f961971</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16384743ae40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Poll frequency (minutes)</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c12565d82d52db002b8647c34cead32d</update_guid>
+<update_guid_history>c12565d82d52db002b8647c34cead32d:1646589256,0704d910eb52db00771eeca8fd5fdb7e:1883324997,ca2e74d0e512db00d133ae8df2de10d2:-656336510</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_267ad914db52db009c69f8231f96194b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_nameVALCHANGES^EQ&lt;item endquery="false" field="u_name" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Job Name&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AzureQueueProbeRunner();
+	probeRunner.updateJobName(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 20:00:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;267ad914db52db009c69f8231f96194b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Job Name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_267ad914db52db009c69f8231f96194b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:00:47&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=267ad914db52db009c69f8231f96194b"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2084984792</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1285a9d8db52db009c69f8231f961974</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163844a3d110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Update Job Name</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5daad1542b52db0002cfa389e704551e</update_guid>
+<update_guid_history>5daad1542b52db0002cfa389e704551e:2084984792</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_delete_messages_after_receipt</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_delete_messages_after_receipt" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Delete messages after receipt&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_delete_messages_after_receipt&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;2f4d3c90db12db009c69f8231f961914&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete messages after receipt&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_delete_messages_after_receipt&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 17:56:20&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1497626998</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1685a9d8db52db009c69f8231f961970</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84a670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_delete_messages_after_receipt</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>062e74d0f312db00f1d02d98460a77b9</update_guid>
+<update_guid_history>062e74d0f312db00f1d02d98460a77b9:1497626998</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_scheduled_job_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_scheduled_job" label="Scheduled job" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_scheduled_job</element><help/><hint/><label>Scheduled job</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Scheduled jobs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>222eb4d0db12db009c69f8231f961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Scheduled job</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_scheduled_job_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1266173751</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1685a9d8db52db009c69f8231f961973</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d8544e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Scheduled job</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7e2eb4d05112db0093c165962ed29721</update_guid>
+<update_guid_history>7e2eb4d05112db0093c165962ed29721:1266173751</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_5e2e74d0db12db009c69f8231f9619f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_azure_config_queue_integration</description><name>u_azure_config_queue_integration</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>5e2e74d0db12db009c69f8231f9619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_5e2e74d0db12db009c69f8231f9619f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1585574807</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>1685a9d8db52db009c69f8231f961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84ec20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>122e74d05112db004ca1a4bc940964f5</update_guid>
+<update_guid_history>122e74d05112db004ca1a4bc940964f5:1585574807</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_312e34d0db12db009c69f8231f96198a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_azure_config_queue_integration_user</name><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:19</sys_created_on><sys_id>312e34d0db12db009c69f8231f96198a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_312e34d0db12db009c69f8231f96198a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:19</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-2099593547</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>1685a9d8db52db009c69f8231f9619db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d847710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table/>
+<target_name>u_azure_config_queue_integration_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>792e34d07212db0086e77e81dbc25c8c</update_guid>
+<update_guid_history>792e34d07212db0086e77e81dbc25c8c:-2099593547</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_985c7490db12db009c69f8231f961940</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Azure Config Queue Integration</label><live_feed_enabled>false</live_feed_enabled><name>u_azure_config_queue_integration</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:20</sys_created_on><sys_id>985c7490db12db009c69f8231f961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Azure Config Queue Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_985c7490db12db009c69f8231f961940</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:20</sys_updated_on><update_access>false</update_access><user_role display_value="u_azure_config_queue_integration_user" name="u_azure_config_queue_integration_user">312e34d0db12db009c69f8231f96198a</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1599169627</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1a85a9d8db52db009c69f8231f96196f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d855790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>fe2eb4d08212db006d47ad27d84737b6</update_guid>
+<update_guid_history>fe2eb4d08212db006d47ad27d84737b6:-1599169627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_max_requests_per_poll_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_max_requests_per_poll" label="Max requests per poll" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_max_requests_per_poll</element><help/><hint/><label>Max requests per poll</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Max requests per polls</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>2e2eb4d0db12db009c69f8231f961910</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Max requests per poll</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_max_requests_per_poll_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1635179941</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1a85a9d8db52db009c69f8231f961972</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d8547c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Max requests per poll</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>be2eb4d06912db00b7e6c24ab87693ac</update_guid>
+<update_guid_history>be2eb4d06912db00b7e6c24ab87693ac:-1635179941</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_7165d550db52db009c69f8231f9619b0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.azureStorageAccountQualifier&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;azureStorageAccountQualifier&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var azureStorageAccountQualifier = Class.create();
+azureStorageAccountQualifier.prototype = {
+	initialize: function() {
+	},
+	getStorageAccountIDs: function(sys_id){
+		var ldcIDs = [];
+		var saIDs = [];
+		var relation = new GlideRecord("cmdb_rel_ci");
+		relation.addQuery('child',sys_id);
+		relation.query();
+		
+		while(relation.next()){
+			var logicalDatacenter = new GlideRecord("cmdb_ci_logical_datacenter");
+			logicalDatacenter.addQuery('sys_id',relation.getValue('parent'));
+			logicalDatacenter.query();
+			if(logicalDatacenter.next()){
+				ldcIDs.push(logicalDatacenter.sys_id+'');
+			}
+		}
+		
+		relation= new GlideRecord("cmdb_rel_ci");
+		relation.addQuery('child',"IN",ldcIDs.toString());
+		relation.query();
+		
+		while(relation.next()){
+			var storageAccount = new GlideRecord("cmdb_ci_cloud_storage_account");
+			storageAccount.addQuery('sys_id',relation.getValue('parent'));
+			storageAccount.query();
+			if(storageAccount.next()){
+				saIDs.push(storageAccount.sys_id+'');
+			}
+		}
+		return saIDs.toString();
+	},
+	type: 'azureStorageAccountQualifier'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 19:37:54&lt;/sys_created_on&gt;&lt;sys_id&gt;7165d550db52db009c69f8231f9619b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;azureStorageAccountQualifier&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_7165d550db52db009c69f8231f9619b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:52:34&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-563839546</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>1a85a9d8db52db009c69f8231f961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638442b70e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table/>
+<target_name>azureStorageAccountQualifier</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>38c8d9907752db00a41392cc2e94c439</update_guid>
+<update_guid_history>38c8d9907752db00a41392cc2e94c439:-563839546,1bf599506952db007c38f48b642e3342:213189093,8ac51190a552db009f56000e7ff0f2ae:-1767152345,a485dd50c252db004d9725ffc1fa8176:164784801,3965d5502452db007d4f0fe04ad430b2:-1366172852</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_9e2e74d0db12db009c69f8231f9619f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>9e2e74d0db12db009c69f8231f9619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_azure_config_queue_integration">5e2e74d0db12db009c69f8231f9619f2</sys_security_acl><sys_update_name>sys_security_acl_role_9e2e74d0db12db009c69f8231f9619f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><sys_user_role display_value="u_azure_config_queue_integration_user" name="u_azure_config_queue_integration_user">312e34d0db12db009c69f8231f96198a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1312849864</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>1a85a9d8db52db009c69f8231f9619da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84f200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>da2e74d02512db0005708638dcb9c2f7</update_guid>
+<update_guid_history>da2e74d02512db0005708638dcb9c2f7:-1312849864</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ecc_agent_script_include_01a12003dbca5340e68af05e0f961930</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="ecc_agent_script_include"&gt;&lt;ecc_agent_script_include action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;name&gt;AzureConfigAlertQueueProbe&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AzureConfigAlertQueueProbe = Class.create();
+AzureConfigAlertQueueProbe.prototype = Object.extendsObject(AzureCloudAPIBase, {
+	
+	resourceType: 'Microsoft.Storage/queues',
+	versionDefault: '2016-12-01',
+	
+	initialize: function() {
+		this.storageAccountName = probe.getParameter('storageAccountName');
+		this.accountID = probe.getParameter('storageAccountID');
+		this.queueName = probe.getParameter('queueName');
+		this.numberOfMessages = probe.getParameter('numberOfMessages');
+		this.maxRequests = probe.getParameter('maxRequests');
+		this.deleteOnReceipt = probe.getParameter('deleteMessages');
+		
+		this.baseUrl = 'https://' + this.storageAccountName + '.queue.core.windows.net/' + this.queueName + '/messages';
+		
+		var credential_id = probe.getParameter('credential_id');
+		var credentialProvider = new  Packages.com.snc.commons.credentials.CredentialsProviderFactory.getCredentialsProvider();
+		var credential = credentialProvider.getCredentialByID(credential_id);
+		
+		this.clientId = credential.getAttributeByName('client_id');
+		this.tenantId = credential.getAttributeByName('tenant_id');
+		this.secretKey = credential.getAttributeByName('secret_key');
+		
+		var parameters = new Packages.java.util.HashMap();
+		var headers = new Packages.java.util.HashMap();
+
+		parameters.put('ClientId',this.clientId);
+		parameters.put('TenantId',this.tenantId);
+		parameters.put('SecretKey',this.secretKey);
+		parameters.put('EndpointURL','https://management.azure.com');
+		
+		AzureCloudAPIBase.prototype.initialize.call(this, parameters, headers);
+		
+		this.key = this._getPrimaryKey(this.accountID);
+	},
+	
+	receiveMessages: function(){
+		var messageIDs;
+		var messages = [];
+		
+		var url = this.baseUrl;
+		if (this.numberOfMessages &gt; 1) {
+			url = url+'?numofmessages=' + this.numberOfMessages;
+		}
+		var invoker = this._getStorageAPIInvoker(url, this.apiVersion,this.key,this.storageAccountName);	
+		
+		for (var requestCount=0;requestCount &lt; this.maxRequests;requestCount++){
+			messageIDs = [];
+			
+			var response = invoker.invokeGet();
+			
+			if(response === null) {
+				break;
+			}
+			else {
+				if(Array.isArray(response.QueueMessage)){
+					for (var index=0;index &lt; response.QueueMessage.length;index++){
+						messageIDs.push({
+							'id':response.QueueMessage[index].MessageId,
+							'popReceipt':response.QueueMessage[index].PopReceipt
+						});
+						messages.push(response.QueueMessage[index].MessageText);
+					}
+				}
+				else{
+					messageIDs.push({
+						'id':response.QueueMessage.MessageId,
+						'popReceipt':response.QueueMessage.PopReceipt
+					});
+					messages.push(response.QueueMessage.MessageText);
+				}
+			}
+			
+			if(this.deleteOnReceipt){
+				var deleteResponse = this.deleteMessageBatch(messageIDs);
+			}
+		}
+		return JSON.stringify(messages);
+	},
+	
+	deleteMessageBatch: function(messageBatch){
+		for(var index=0;index&lt;messageBatch.length;index++){
+			var url = this.baseUrl;
+			url+="/" + messageBatch[index].id + "?popreceipt=" + messageBatch[index].popReceipt;			
+			
+			var invoker = this._getStorageAPIInvoker(encodeURI(url), this.apiVersion,this.key,this.storageAccountName);
+			
+			var response = invoker.invokeDelete();
+		}
+	},
+	
+	getStorageKey: function(id) {
+		var url = this._getActionURL(id, 'listKeys');
+		var invoker = this._getAPIInvoker(url, this.apiVersion);
+		return invoker.invokePost('');
+	},
+	
+	_getPrimaryKey: function(id) {
+		var keys = this.getStorageKey(id);
+		return keys.keys[0].value;
+	},
+	
+	_getActionURL: function(id, action) {
+		var url = this.getResourceURL(id);
+		url += '/' + action;
+		return url;
+	},
+	
+	/**
+	* Method to get storage storageAPIInvoker
+	*/
+	_getStorageAPIInvoker: function(url, version, accountKey, accountName) {
+		ms.log("URL 1: " + url);
+		var apiInvoker = new AzureStorageAPIInvoker_ConfigPatch(url, version, accountKey, accountName);
+		var params = {};
+		apiInvoker.setParameters(this._getAPIParameters());
+		var headers = {};
+		apiInvoker.setHeaders(this._getAPIHeaders());
+		return apiInvoker;
+	},
+	
+	type: "AzureConfigAlertQueueProbe"
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;ecc_agent_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-17 20:17:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;01a12003dbca5340e68af05e0f961930&lt;/sys_id&gt;&lt;sys_mod_count&gt;82&lt;/sys_mod_count&gt;&lt;sys_name&gt;AzureConfigAlertQueueProbe&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;ecc_agent_script_include_01a12003dbca5340e68af05e0f961930&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 18:40:07&lt;/sys_updated_on&gt;&lt;/ecc_agent_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>41232983</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1e85a9d8db52db009c69f8231f96196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163840061ef0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table/>
+<target_name>AzureConfigAlertQueueProbe</target_name>
+<type>MID Server Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>eb280158e912db00c2c155c52bad5c3f</update_guid>
+<update_guid_history>eb280158e912db00c2c155c52bad5c3f:41232983,47e0fc98b9de9b00c226d0f1e23a5e3e:2068724432,5ead6c18afde9b00fed557550b47657b:1660282048,099d2cd441de9b00d0568973246322df:-2025654352,8d0d6cd40dde9b007aca50aa94851805:1562928976,799ce4d455de9b004f8299f4ea354419:407034520,d76ce41898de9b000a6078e5a7289ab0:1315286917,7dfbe418b0de9b0037912d24e8db73e9:-758437339,efdb249491de9b00df61f58555fda232:-689691124,162be4d447de9b00301c35043b46c411:773916276,6b7a64d4e4de9b00d162cb548d8fe067:832789711,d419285434de9b00f13db7c09a9102ac:866451048,62d8a498119e9b00856723a7f415243c:1161229971,5828ec98289e9b006937d5b8c0a8c9a8:93425587,6052a898d19e9b00fea03d85f6f7345d:914062123,a5c39098f79e9b00d13364bcc4075e74:-1212507976,3dffcc94249e9b00d31749bfcaa0bf99:-1283215805,a87e8c54369e9b00d67966a7ed8a5169:1777866025,729988500a9e9b00e82a93de625c6f26:-1346775224,96625e17e4025b00f52101a0edbbdd88:-1059899900,2e42c21b83ce1b00badf56eb82b5107f:549834616,6abcf51b43ce1b008f1a9c7146cc5f50:-1059899900,a44cf9d7f5ce1b00e7f0d4a20dcfcea0:-700056452,82fbf9d7c0ce1b008fd530108fbdb53a:-1211872720,abebf9d702ce1b00c60a064fc846289a:1473111316,739bbdd738ce1b007c30b043f35580b1:1717693339,2b6bf9d76dce1b000accf8295d226932:104331067,504bf5d7dfce1b0023ca2541fd951842:-434985036,edea71d7b3ce1b00ed1bebcfe29c6f94:1761651489,bfaabd17c6ce1b000f5bda77c81edb96:-1272629243,4d9a399767ce1b0077748b5a9057235c:-1399100332,4a6a39977fce1b00c4c7163557e87059:-1045070584,0a3a7d174fce1b008cbbc198f3d8c0d5:-1603517904,0528755338ce1b00ba63e4e4f02e914f:-1997267116,2df7b193b5ce1b00d9d522b62e830abd:608335142,f5a7b1176ece1b00e263610f362078c2:1016552207,0e37b51332ce1b00f151f20207d726ec:507719864,e3e3b5df928e1b006f2332b26fb9c4a6:1189977424,2633b5df278e1b004654b9a28d80b4cc:-1012955490,2df2f59f528e1b00c21a34cd0e70e60a:-671739499,ecb27d9f4d8e1b008abd87d7191a4a90:-748794827,1972fddf478e1b008c798b29929abefb:-2873643,30f1fddfc08e1b005a1dd3df3b1875f8:731159758,7871b59f938e1b003171df0b5a315b72:-1494588759,8c90b59f9c8e1b008ea02c99147c62a2:-722877849,6620399f1f8e1b0044694e96d2e9504e:1746685152,07efe95fc18e1b0023dffddb891336f7:-1113998197,3d5fe95f008e1b000f5a2738331125f3:-202840473,54eeed1f938e1b00760350e70caf8054:2027789599,6d9eed1f538e1b00ec38968a00307650:152745915,139deddbd18e1b00f5a79273d6c6b9fd:-976469536,386d691fa78e1b00a208a888cb781c4a:114687277,6cbceddb928e1b005264326316bfea06:1747131041,a11ce9dba08e1b00db7951a50a268ac8:-1542494356,284a5553718e1b00c24cfe76ac4ab1e4:-61594,23c91153898e1b0080e77dd1a6634d7e:2001665405,bc2f099788c2934075c3fb3dfbcdfeae:-142563001,dbde891b9dc293404518ba4a96e813ce:-577952602,8ebe4d1b43c29340eb494d70c7aa2853:-1721304141,edbe4d1bb2c293403e889742264e404f:-1721304141,066e891b7fc2934015d737f3cf0607ca:-784470648,0e3ec9971bc2934099e871450553b1e1:-1721304141,0b4dc11b41c29340d9964e2fe4e3da0c:-142563001,f986051f1b829340e01de9ec3e666870:1906144200,287545133bc29340db281ea032f36751:1440512322,9163051fc3829340c8ada0e57cc1c46c:690511083,c20389d3fbc293404c608c29e6555238:-2086995726,47914d1f9d829340eea30c4763fcc553:-2138872185,4d8e7c1f52829340dcc911bde44a554f:1398952908,1474341ff0829340f1dafa176b4ca147:1277434638,4224fc1f708293408d58a5117e267b3d:-2118439348,038be0d7b682934089019f78e97f32d1:969002695,b3ba241bcc82934001dee92993015348:1872510935,9e1a241bf88293405ef5adcfb6613544:-1678800386,70d9e457558293407f0be54c9b4fc8ff:-165158466,37386c970b429340bb1da430116f9c6f:-1678800386,3037e457a38293404d1214d2eac5befb:-1662965795,9754e457aa82934016d9b83a08898ef6:164165095,6c046457ac82934081fce3150f5c5e01:-975993405,4ecd8107790e53401bb2b44e7b65f47a:2092607502,ef198183160e53406b23e433ef7851cc:1544272104,54d7c543750e53403a233bc7eba6d13f:1659671293,8a56c5433a0e53403a743e43e2ec0c36:-1080776962,f5da7ccbb7ca534065807f603443bca8:1463571869,e92974cba0ca5340948917f8f912d42b:-1434912653,ed08788bdeca5340d8d147ae75c7551c:-2034675087</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_active_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_active" label="Active" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_active</element><help/><hint/><label>Active</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Active</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>2a2eb4d0db12db009c69f8231f96190d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_active_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-594030078</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1e85a9d8db52db009c69f8231f961971</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d854660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Active</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3e2eb4d0e612db007fa1e578637276ab</update_guid>
+<update_guid_history>3e2eb4d0e612db007fa1e578637276ab:-594030078</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_87a99914db52db009c69f8231f9619ab</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Delete Scheduled Job&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AzureQueueProbeRunner();
+	probeRunner.deleteJob(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 19:57:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;87a99914db52db009c69f8231f9619ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete Scheduled Job&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_87a99914db52db009c69f8231f9619ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:57:31&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=87a99914db52db009c69f8231f9619ab"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1397596191</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>1e85a9d8db52db009c69f8231f961974</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16384473e400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Delete Scheduled Job</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>1de95d148a52db0076b0005b218f3dbe</update_guid>
+<update_guid_history>1de95d148a52db0076b0005b218f3dbe:1397596191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_credentials</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_credentials" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Azure account&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_credentials&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="cmdb_ci_cloud_service_account"&gt;cmdb_ci_cloud_service_account&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;datacenter_typeSTARTSWITHcmdb_ci_azure_datacenter^EQ&lt;/reference_qual&gt;&lt;reference_qual_condition table="cmdb_ci_cloud_service_account"&gt;datacenter_typeSTARTSWITHcmdb_ci_azure_datacenter^EQ&lt;item endquery="false" field="datacenter_type" goto="false" newquery="false" operator="STARTSWITH" or="false" value="cmdb_ci_azure_datacenter"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;7cdc3490db12db009c69f8231f96195a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure account&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_credentials&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:34:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1078963676</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5285a9d8db52db009c69f8231f961970</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163843211520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Azure account</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>aa9415500452db00b0b124b3efc1b6db</update_guid>
+<update_guid_history>aa9415500452db00b0b124b3efc1b6db:1078963676,7ac3d5106952db00d4ca073d536290a5:40841776,822e74d07a12db00d38ff8f71484d6ac:1127629197</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_queue_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_queue_name" label="Queue name" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_queue_name</element><help/><hint/><label>Queue name</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Queue names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>e22eb4d0db12db009c69f8231f961913</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Queue name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_queue_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1987438861</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5285a9d8db52db009c69f8231f961973</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d855470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Queue name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>fa2eb4d06012db0071f128a64d7f19b4</update_guid>
+<update_guid_history>fa2eb4d06012db0071f128a64d7f19b4:-1987438861</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_562e74d0db12db009c69f8231f9619e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_azure_config_queue_integration</description><name>u_azure_config_queue_integration</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>562e74d0db12db009c69f8231f9619e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_562e74d0db12db009c69f8231f9619e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1645851137</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>5285a9d8db52db009c69f8231f961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84df50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>1a2e74d06112db00def08273218fd0e9</update_guid>
+<update_guid_history>1a2e74d06112db00def08273218fd0e9:1645851137</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_e52ff890db12db009c69f8231f9619b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="e52ff890db12db009c69f8231f9619b5" sys_domain="global" table="u_azure_config_queue_integration" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>0c5f3014db12db009c69f8231f961991</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>8c5f3014db12db009c69f8231f961991</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_active</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>005f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_credentials</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>805f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_storage_account</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>045f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_queue_name</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>845f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>085f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_delete_messages_after_receipt</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>885f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_max_messages_per_request</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>0c5f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_max_requests_per_poll</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>8c5f3014db12db009c69f8231f961992</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_poll_frequency</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>005f3014db12db009c69f8231f961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>805f3014db12db009c69f8231f961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_scheduled_job</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:01:23</sys_created_on><sys_id>045f3014db12db009c69f8231f961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_azure_config_queue_integration" sys_domain="global" view="Default view">e52ff890db12db009c69f8231f9619b5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:01:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_azure_config_queue_integration</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 18:00:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e52ff890db12db009c69f8231f9619b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_e52ff890db12db009c69f8231f9619b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:00:40</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-493377156</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>5285a9d8db52db009c69f8231f9619db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383dceac80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>0c5f7014b612db008b692a6623b2e1cc</update_guid>
+<update_guid_history>0c5f7014b612db008b692a6623b2e1cc:-493377156,212f30149712db007271dfe81bf5104d:497493680,212ff8902d12db00c6cc7c3ac12e28b8:-1180724553</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_de2e74d0db12db009c69f8231f9619da</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cloud Management">f7c511a2eb752200979aa5115206fe8f</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Azure Config Queue Integrations</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_azure_config_queue_integration</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_azure_config_queue_integration_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>de2e74d0db12db009c69f8231f9619da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Azure Config Queue Integrations</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_de2e74d0db12db009c69f8231f9619da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:20</sys_updated_on><timeline_page/><title>Azure Config Queue Integrations</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>486282843</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5685a9d8db52db009c69f8231f96196f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84ca70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integrations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>9a2e74d05b12db007e96e7118b1612dc</update_guid>
+<update_guid_history>9a2e74d05b12db007e96e7118b1612dc:486282843</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_max_messages_per_request_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_max_messages_per_request" label="Max messages per request" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_max_messages_per_request</element><help/><hint/><label>Max messages per request</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Max messages per requests</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>ee2eb4d0db12db009c69f8231f96190f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Max messages per request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_max_messages_per_request_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>319414659</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5685a9d8db52db009c69f8231f961972</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d8555f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Max messages per request</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7e2eb4d00612db002cfdaebacad852b5</update_guid>
+<update_guid_history>7e2eb4d00612db002cfdaebacad852b5:319414659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_4abfe098dbde9b009c69f8231f961970</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.AzureQueueProbeRunner&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;AzureQueueProbeRunner&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AzureQueueProbeRunner = Class.create();
+AzureQueueProbeRunner.prototype = {
+	initialize: function() {
+	},
+	
+	runScheduledJob: function(azureConfigDefinitionID){
+		var azureConfigDefinitionGR = new GlideRecord('u_azure_config_queue_integration');
+		if (!azureConfigDefinitionGR.get(azureConfigDefinitionID)){
+			gs.error("Azure Queue Probe Runner: No config definition found for id {0}",azureConfigDefinitionID);
+			return;
+		}
+		
+		if(azureConfigDefinitionGR.u_active == false){
+			gs.error("Azure Queue Probe Runner: Config Definition {0} not active",azureConfigDefinitionGR.u_name);
+			this.setJobActiveFlag(azureConfigDefinitionGR);
+			return;
+		}
+		this.runProbe(azureConfigDefinitionGR);
+	},
+	
+	createJob: function(azureConfigDefinitionGR){
+		var jobGR = new GlideRecord('sysauto_script');
+		jobGR.initialize();
+		jobGR.name = "Azure Queue Config Probe Scheduled Job: " + azureConfigDefinitionGR.getDisplayValue();
+		jobGR.active = azureConfigDefinitionGR.u_active;
+		jobGR.run_type = 'periodically';
+		jobGR.run_period.setDateNumericValue(azureConfigDefinitionGR.u_poll_frequency * 60000);
+		jobGR.run_start.setDisplayValue(gs.nowDateTime());
+		jobGR.script = 'var probeRunner = new AzureQueueProbeRunner();\n'
+						+ 'probeRunner.runScheduledJob("' + azureConfigDefinitionGR.sys_id + '");';
+		jobGR.insert();
+		
+		return jobGR;
+	},
+	
+	deleteJob: function(azureConfigDefinitionGR){
+		if(gs.nil(azureConfigDefinitionGR.u_scheduled_job)){
+			gs.error("Azure Queue Probe Runner: Job not found for deletion on {0}",azureConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = azureConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.deleteRecord();
+	},
+	
+	setJobActiveFlag: function(azureConfigDefinitionGR){
+		if(gs.nil(azureConfigDefinitionGR.u_scheduled_job)){
+			gs.error("Azure Queue Probe Runner: Job not found for activation/deactivation on {0}",azureConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = azureConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.active = azureConfigDefinitionGR.u_active;
+		jobGR.update();
+	},
+	
+	updateJobInterval: function(azureConfigDefinitionGR){
+		if(gs.nil(azureConfigDefinitionGR.u_scheduled_job)){
+			gs.error("Azure Queue Probe Runner: Job not found for interval update on {0}",azureConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = azureConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.run_period.setDateNumericValue(azureConfigDefinitionGR.u_poll_frequency * 60000);
+		jobGR.update();
+	},
+	
+	updateJobName: function(azureConfigDefinitionGR){
+		if(gs.nil(azureConfigDefinitionGR.u_scheduled_job)){
+			gs.error("Azure Queue Probe Runner: Job not found for name update on {0}",azureConfigDefinitionGR.u_name);
+			return;
+		}
+		var jobGR = azureConfigDefinitionGR.u_scheduled_job.getRefRecord();
+		jobGR.name = "Azure Queue Config Probe Scheduled Job: " + azureConfigDefinitionGR.getDisplayValue();
+		jobGR.update();
+	},
+	
+	runProbe: function(azureConfigDefinitionGR){
+		var queueName = azureConfigDefinitionGR.u_queue_name.getValue();
+		var deleteMessagesFlag = azureConfigDefinitionGR.u_delete_messages_after_receipt.toString();
+		var numberOfMessages = azureConfigDefinitionGR.u_max_messages_per_request.getValue();
+		var numberOfRequests = azureConfigDefinitionGR.u_max_requests_per_poll.getValue();
+		var credentialId = azureConfigDefinitionGR.u_credentials.discovery_credentials.getValue();
+		var storageAccountID = azureConfigDefinitionGR.u_storage_account.object_id;
+		var storageAccountName = azureConfigDefinitionGR.u_storage_account.name;
+		
+		var probe = SncProbe.get('Azure-Queue-Config-JS');
+		probe.addParameter("credential_id",credentialId);
+		probe.addParameter("deleteMessages",deleteMessagesFlag);
+		probe.addParameter("numberOfMessages",numberOfMessages);
+		probe.addParameter("maxRequests",numberOfRequests);
+		probe.addParameter('queueName',queueName);
+		probe.addParameter("storageAccountID",storageAccountID);
+		probe.addParameter('storageAccountName',storageAccountName);
+		
+		var msf = new MIDServerFinder();
+		msf.setCapabilities(["Azure"]);
+		
+		return probe.create(msf.getMIDServers()[0]);
+	},
+	
+	type: 'AzureQueueProbeRunner'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 16:53:15&lt;/sys_created_on&gt;&lt;sys_id&gt;4abfe098dbde9b009c69f8231f961970&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;AzureQueueProbeRunner&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4abfe098dbde9b009c69f8231f961970&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 18:32:38&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>213228239</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>5685a9d8db52db009c69f8231f961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383f989860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table/>
+<target_name>AzureQueueProbeRunner</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>86768dd49312db00d0fde9af5b335014</update_guid>
+<update_guid_history>86768dd49312db00d0fde9af5b335014:213228239,72a0cd14da12db0020fca1dbdfeae3b2:377468365,f58d38d887de9b0078db38498e341ca0:1111451297,db6ab8d892de9b00b0feae7bfe7149b1:-417999741,7029f4109112db00fd2e038203db2c99:-193058335,b820b4d822de9b00ef5a4309684824b2:1904279711,c2bfe0989cde9b009d1dad310e49ba73:658906705</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_962e74d0db12db009c69f8231f9619ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>962e74d0db12db009c69f8231f9619ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_azure_config_queue_integration">562e74d0db12db009c69f8231f9619e7</sys_security_acl><sys_update_name>sys_security_acl_role_962e74d0db12db009c69f8231f9619ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><sys_user_role display_value="u_azure_config_queue_integration_user" name="u_azure_config_queue_integration_user">312e34d0db12db009c69f8231f96198a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1870480401</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>5685a9d8db52db009c69f8231f9619da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84e280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>d22e74d00212db003279e5a33ee021ec</update_guid>
+<update_guid_history>d22e74d00212db003279e5a33ee021ec:-1870480401</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>discovery_sensor_bdaeac18dbde9b009c69f8231f9619f1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="discovery_sensor"&gt;&lt;discovery_sensor action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;agent/&gt;&lt;apply_defaults&gt;true&lt;/apply_defaults&gt;&lt;classification_type/&gt;&lt;coalesce/&gt;&lt;condition_script/&gt;&lt;data_option&gt;insert_update&lt;/data_option&gt;&lt;data_source/&gt;&lt;description/&gt;&lt;external_names/&gt;&lt;java_class/&gt;&lt;major_version&gt;1&lt;/major_version&gt;&lt;minor_version&gt;0&lt;/minor_version&gt;&lt;name&gt;AzureQueue-ConfigSensor&lt;/name&gt;&lt;order/&gt;&lt;parent/&gt;&lt;reacts_to_probe display_value="Azure-Queue-Config-JS"&gt;094ea098dbde9b009c69f8231f96191d&lt;/reacts_to_probe&gt;&lt;script&gt;&lt;![CDATA[new DiscoverySensor({
+    process: function(result) {
+        if (gs.nil(result.output))
+            return;
+		
+		var output = JSON.parse(result.output);
+		
+        for (var i=0;i&lt;output.length;i++){
+			var queryParamsStr = '';
+
+			var headers = {};
+			headers['user-agent'] = 'IcMBroadcaster';
+			
+			var eventGr = new GlideRecord('sn_cmp_cloud_event');
+			eventGr.initialize();
+			eventGr.setValue('payload', GlideStringUtil.base64Decode(output[i]));
+			eventGr.setValue('headers', global.JSON.stringify(headers));
+			eventGr.setValue('source', 'azure activity log');
+			eventGr.setValue('query_params', queryParamsStr);
+			eventGr.insert();
+		}
+    },
+
+    type: "DiscoverySensor"
+});]]&gt;&lt;/script&gt;&lt;sensor_type&gt;Javascript&lt;/sensor_type&gt;&lt;sys_class_name&gt;discovery_sensor&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 16:48:36&lt;/sys_created_on&gt;&lt;sys_id&gt;bdaeac18dbde9b009c69f8231f9619f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;AzureQueue-ConfigSensor&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;discovery_sensor_bdaeac18dbde9b009c69f8231f9619f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 16:51:48&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;data_source&lt;/type&gt;&lt;xml_root_node/&gt;&lt;/discovery_sensor&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1015941869</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5a85a9d8db52db009c69f8231f96196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163839d35b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table/>
+<target_name>AzureQueue-ConfigSensor</target_name>
+<type>Sensor</type>
+<update_domain>global</update_domain>
+<update_guid>786f6c98b2de9b00df2b0e4b7eedde89</update_guid>
+<update_guid_history>786f6c98b2de9b00df2b0e4b7eedde89:-1015941869,71aeac18d8de9b004b389e33d0cacef3:-1005420085</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_storage_account</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_storage_account" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Storage account&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_storage_account&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="cmdb_ci_cloud_storage_account"&gt;cmdb_ci_cloud_storage_account&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;javascript: var ids = new azureStorageAccountQualifier().getStorageAccountIDs(current.u_credentials+'');'sys_idIN' + ids; &lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;041d3490db12db009c69f8231f961959&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Storage account&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_storage_account&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:36:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1631367278</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5a85a9d8db52db009c69f8231f961971</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163843449990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Storage account</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4e251d50b552db0060296fa5ceae644b</update_guid>
+<update_guid_history>4e251d50b552db0060296fa5ceae644b:1631367278,d9f399107152db00e135c20ff666a228:-435683016,ce2e74d09d12db0052f30129b25592b4:1970818797</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_775f1954db52db009c69f8231f96190f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_poll_frequencyVALCHANGES^u_poll_frequency&amp;lt;5^EQ&lt;item endquery="false" field="u_poll_frequency" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="u_poll_frequency" goto="false" newquery="false" operator="&amp;lt;" or="false" value="5"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Poll Frequency&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	current.u_poll_frequency = 5;
+	gs.addInfoMessage('Poll frequency must be greater than 5 minutes.  Resetting to 5 minutes');
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 20:22:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;775f1954db52db009c69f8231f96190f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Poll Frequency&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_775f1954db52db009c69f8231f96190f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:22:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=775f1954db52db009c69f8231f96190f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>273026396</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5a85a9d8db52db009c69f8231f961974</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163845e2afb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Validate Poll Frequency</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>80af19541252db00ab32bc67a50e3ef3</update_guid>
+<update_guid_history>80af19541252db00ab32bc67a50e3ef3:273026396</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;true&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;bc5cf0d8dbde9b009c69f8231f9619ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 17:56:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1394513387</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5e85a9d8db52db009c69f8231f961970</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d8485f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4a2e34d00112db004d53ccbba7497c91</update_guid>
+<update_guid_history>4a2e34d00112db004d53ccbba7497c91:-1394513387</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_09bad154db52db009c69f8231f961903</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_poll_frequencyVALCHANGES^EQ&lt;item endquery="false" field="u_poll_frequency" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Poll Frequency&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AzureQueueProbeRunner();
+	probeRunner.updateJobInterval(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 20:01:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;09bad154db52db009c69f8231f961903&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Poll Frequency&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_09bad154db52db009c69f8231f961903&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:01:54&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=09bad154db52db009c69f8231f961903"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>795416792</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>5e85a9d8db52db009c69f8231f961973</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163844b40900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Update Poll Frequency</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>a9ea95542752db0037cde528f4353403</update_guid>
+<update_guid_history>a9ea95542752db0037cde528f4353403:795416792</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ecc_agent_script_include_b6164810db9e9b009c69f8231f961948</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="ecc_agent_script_include"&gt;&lt;ecc_agent_script_include action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;Patch to override which token manager is used to address PRB1281581 temporarily&lt;/description&gt;&lt;name&gt;AzureStorageTokenManager_ConfigPatch&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AzureStorageTokenManager_ConfigPatch = Class.create();
+AzureStorageTokenManager_ConfigPatch.prototype = Object.extendsObject(AzureStorageTokenManager, {
+	
+	// Converts the query into a key and value pair
+	// Example input: "restype=container&amp;comp=list"
+	// Example ouptut: "resttype:container\ncomp:list"
+	getKeyValue: function(query) {
+		if(!query){
+			return '';
+		}
+		var resourceStr = '';
+		
+		var arr  = query.split("&amp;");
+		// mid-output here: array of string with values : restype=container,comp=list
+		var last = arr.length - 1;
+		for(var i = last; i &gt;= 0; --i) {
+			var str = arr[i];
+			var arr1 = str.split("=");
+			resourceStr += arr1[0] + ":" + arr1[1];
+			for (var i2=2;i2&lt;arr1.length;i2++) {
+				resourceStr+="="+arr1[i2];
+			}
+			// in case of there  is just one element in the array or it's a last element, skip following code
+			if (i != 0) {
+				resourceStr += "\n";
+			}
+		}
+		
+		return resourceStr;
+	},
+	
+    type: 'AzureStorageTokenManager_ConfigPatch'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;ecc_agent_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 13:51:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b6164810db9e9b009c69f8231f961948&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;AzureStorageTokenManager_ConfigPatch&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Cloud API" source="sn_capi"&gt;0f7325250b21220033bc05ae37673a53&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;ecc_agent_script_include_b6164810db9e9b009c69f8231f961948&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 14:53:01&lt;/sys_updated_on&gt;&lt;/ecc_agent_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1301486806</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9285a9d8db52db009c69f8231f96196f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163833077bc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table/>
+<target_name>AzureStorageTokenManager_ConfigPatch</target_name>
+<type>MID Server Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>f8349498849e9b003c7e587e38e0a22a</update_guid>
+<update_guid_history>f8349498849e9b003c7e587e38e0a22a:-1301486806,14149098389e9b00b6d395780d88b678:437960522,11031c18199e9b00dff93a107f96efd0:-1301486806,475c4c14029e9b00743decbf7cab6057:-64229178,14ab4cd0c59e9b005b103cfe5710861f:2060812982,909b4414089e9b009c39bf9a410c291b:944494954,49a648104d9e9b007708efd6b2c28b4f:-1215925697,be164810749e9b00facbf910c5636f49:-1668974490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_delete_messages_after_receipt_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_delete_messages_after_receipt" label="Delete messages after receipt" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_delete_messages_after_receipt</element><help/><hint/><label>Delete messages after receipt</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Delete messages after receipts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>a22eb4d0db12db009c69f8231f96190f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete messages after receipt</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_delete_messages_after_receipt_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1286884075</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9285a9d8db52db009c69f8231f961972</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d855150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Delete messages after receipt</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f62eb4d0f912db00ad3eabb405a123b2</update_guid>
+<update_guid_history>f62eb4d0f912db00ad3eabb405a123b2:1286884075</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d30ad914db52db009c69f8231f961946</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_activeVALCHANGES^EQ&lt;item endquery="false" field="u_active" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Active Flag&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AzureQueueProbeRunner();
+	probeRunner.setJobActiveFlag(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 19:59:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;d30ad914db52db009c69f8231f961946&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Active Flag&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d30ad914db52db009c69f8231f961946&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:59:25&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d30ad914db52db009c69f8231f961946"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1865745762</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>9285a9d8db52db009c69f8231f961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638448fc370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Update Active Flag</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>d15a1d140e52db0035be2ba2449a9137</update_guid>
+<update_guid_history>d15a1d140e52db0035be2ba2449a9137:-1865745762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>discovery_probe_parameter_b54ea098dbde9b009c69f8231f961920</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="discovery_probe_parameter"><discovery_probe_parameter action="INSERT_OR_UPDATE"><active>true</active><name>script</name><probe display_value="Azure-Queue-Config-JS">094ea098dbde9b009c69f8231f96191d</probe><sys_class_name>discovery_probe_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 16:47:14</sys_created_on><sys_id>b54ea098dbde9b009c69f8231f961920</sys_id><sys_mod_count>1</sys_mod_count><sys_name>script</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>discovery_probe_parameter_b54ea098dbde9b009c69f8231f961920</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 18:35:00</sys_updated_on><value>var azQpoller = new AzureConfigAlertQueueProbe();&#13;
+azQpoller.receiveMessages();</value><value_script/></discovery_probe_parameter></record_update>]]></payload>
+<payload_hash>-1531808408</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9685a9d8db52db009c69f8231f96196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383fbb3500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table/>
+<target_name>script</target_name>
+<type>Probe parameter</type>
+<update_domain>global</update_domain>
+<update_guid>ec074d181312db009d42fd13ddb10688</update_guid>
+<update_guid_history>ec074d181312db009d42fd13ddb10688:-1531808408,025e249833de9b00d267c37a90dc23dd:1602487702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_scheduled_job</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_scheduled_job" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;readonly_clickthrough=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Scheduled job&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_scheduled_job&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sysauto_script"&gt;sysauto_script&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;36ed3490db12db009c69f8231f96196e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Scheduled job&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_scheduled_job&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:32:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>157153838</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9685a9d8db52db009c69f8231f961971</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638430a2520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Scheduled job</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2334dd101952db0052dfcf0bc36c67da</update_guid>
+<update_guid_history>2334dd101952db0052dfcf0bc36c67da:157153838,c22e74d0ef12db00567d79b7f5bb2cd7:-1548934535</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_3c6b9554db52db009c69f8231f961960</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_max_requests_per_pollVALCHANGES^u_max_requests_per_poll&amp;lt;1^EQ&lt;item endquery="false" field="u_max_requests_per_poll" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="u_max_requests_per_poll" goto="false" newquery="false" operator="&amp;lt;" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Max Requests&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	if(current.u_max_requests_per_poll&lt;1){
+		current.u_max_requests_per_poll = 1;
+		gs.addInfoMessage('Max requests must be greater than 1.  Resetting to 1');
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 20:05:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;3c6b9554db52db009c69f8231f961960&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Max Requests&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3c6b9554db52db009c69f8231f961960&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:05:06&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3c6b9554db52db009c69f8231f961960"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-545770181</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9685a9d8db52db009c69f8231f961974</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163844e31380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Validate Max Requests</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>28abdd546152db00107b27b566305986</update_guid>
+<update_guid_history>28abdd546152db00107b27b566305986:-545770181</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_max_requests_per_poll</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_max_requests_per_poll" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Max requests per poll&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;5&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_max_requests_per_poll&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;23bdb0d0db12db009c69f8231f961901&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Max requests per poll&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_max_requests_per_poll&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:47:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2031042959</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9a85a9d8db52db009c69f8231f961970</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638474d7ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Max requests per poll</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7645e5d85352db006a53fa10b16442a8</update_guid>
+<update_guid_history>7645e5d85352db006a53fa10b16442a8:2031042959,15141d10fd52db009c956ccc8b4c1981:643649897,862e74d0d012db00df18efd064dc73ce:1261412114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Azure Config Queue Integration" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Azure Config Queue Integration</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Azure Config Queue Integrations</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>6a2eb4d0db12db009c69f8231f96190b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Azure Config Queue Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1930607673</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9a85a9d8db52db009c69f8231f961973</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d854b90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>722eb4d00e12db00551297be012f9eaf</update_guid>
+<update_guid_history>722eb4d00e12db00551297be012f9eaf:1930607673</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_922e74d0db12db009c69f8231f9619f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>922e74d0db12db009c69f8231f9619f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_azure_config_queue_integration">522e74d0db12db009c69f8231f9619ed</sys_security_acl><sys_update_name>sys_security_acl_role_922e74d0db12db009c69f8231f9619f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><sys_user_role display_value="u_azure_config_queue_integration_user" name="u_azure_config_queue_integration_user">312e34d0db12db009c69f8231f96198a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-994958504</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>9a85a9d8db52db009c69f8231f961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84e8d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>de2e74d09812db00c8ee6d90e3a277f1</update_guid>
+<update_guid_history>de2e74d09812db00c8ee6d90e3a277f1:-994958504</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_active</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_active" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Active&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_active&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;c7bcf090db12db009c69f8231f961927&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Active&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_active&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 17:56:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>834772576</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9e85a9d8db52db009c69f8231f96196f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d848cf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_active</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4a2e74d01312db00d184e4dcabb85aa7</update_guid>
+<update_guid_history>4a2e74d01312db00d184e4dcabb85aa7:834772576</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_poll_frequency_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_poll_frequency" label="Poll frequency (minutes)" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_poll_frequency</element><help/><hint/><label>Poll frequency (minutes)</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Poll frequency (minutes)</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>a62eb4d0db12db009c69f8231f961912</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Poll frequency (minutes)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_poll_frequency_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 19:31:58</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>146584580</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>9e85a9d8db52db009c69f8231f961972</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163842fd9130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Poll frequency (minutes)</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>4f04d9109052db007ad00da9e079d77c</update_guid>
+<update_guid_history>4f04d9109052db007ad00da9e079d77c:146584580,7a2eb4d02f12db00f66b701cab67e2b3:-1836341058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_562e74d0db12db009c69f8231f9619e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_azure_config_queue_integration</description><name>u_azure_config_queue_integration</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:20</sys_created_on><sys_id>562e74d0db12db009c69f8231f9619e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_562e74d0db12db009c69f8231f9619e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1310790709</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>9e85a9d8db52db009c69f8231f961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84d740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d22e74d02212db00e39586d0948c26e3</update_guid>
+<update_guid_history>d22e74d02212db00e39586d0948c26e3:1310790709</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_da2e74d0db12db009c69f8231f9619dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cloud Management">78ce6c69db319f0072465f135e9619a8</application><filter/><name>Azure Config Queue Integrations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_azure_config_queue_integration_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>da2e74d0db12db009c69f8231f9619dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Azure Config Queue Integrations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_da2e74d0db12db009c69f8231f9619dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:20</sys_updated_on><table>u_azure_config_queue_integration</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>1782729522</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>9e85a9d8db52db009c69f8231f9619da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84d010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integrations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>162e74d06812db003176af991c0b6ddf</update_guid>
+<update_guid_history>162e74d06812db003176af991c0b6ddf:1782729522</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>discovery_probes_094ea098dbde9b009c69f8231f96191d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="discovery_probes"><discovery_probes action="INSERT_OR_UPDATE"><cache_results>false</cache_results><classic_mode>false</classic_mode><description/><ecc_queue_name/><ecc_queue_source/><ecc_queue_topic>JavascriptProbe</ecc_queue_topic><major_version>1</major_version><minor_version>0</minor_version><name>Azure-Queue-Config-JS</name><post_processor_script/><script/><sys_class_name>discovery_probes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 16:46:54</sys_created_on><sys_id>094ea098dbde9b009c69f8231f96191d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Azure-Queue-Config-JS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>discovery_probes_094ea098dbde9b009c69f8231f96191d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 16:46:54</sys_updated_on><type>Java</type><used_by_discovery>false</used_by_discovery><used_by_runbook>false</used_by_runbook></discovery_probes></record_update>]]></payload>
+<payload_hash>1245557407</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>d285a9d8db52db009c69f8231f96196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638398bbf50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table/>
+<target_name>Azure-Queue-Config-JS</target_name>
+<type>Probe</type>
+<update_domain>global</update_domain>
+<update_guid>994ea09889de9b00ab167b75caa8481e</update_guid>
+<update_guid_history>994ea09889de9b00ab167b75caa8481e:1245557407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_queue_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_queue_name" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Queue name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_queue_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;54ec3490db12db009c69f8231f961957&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Queue name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_queue_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:32:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>855429809</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>d285a9d8db52db009c69f8231f961971</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163843025710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Queue name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>33145d101852db00425eb34448b9765e</update_guid>
+<update_guid_history>33145d101852db00425eb34448b9765e:855429809,c62e74d06212db00c693feec09ae96b0:-671843108</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_3a595914db52db009c69f8231f961926</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_scheduled_jobISEMPTY^EQ&lt;item endquery="false" field="u_scheduled_job" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Create Scheduled Job&lt;/name&gt;&lt;order&gt;99&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var probeRunner = new AzureQueueProbeRunner();
+	current.u_scheduled_job = probeRunner.createJob(current).sys_id;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 19:56:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3a595914db52db009c69f8231f961926&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Scheduled Job&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3a595914db52db009c69f8231f961926&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 19:59:52&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3a595914db52db009c69f8231f961926"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1242570413</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>d285a9d8db52db009c69f8231f961974</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163844966c20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Create Scheduled Job</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f76ad1543d52db00d3928a9b0398b218</update_guid>
+<update_guid_history>f76ad1543d52db00d3928a9b0398b218:1242570413,baf99d140752db001a31dd8c9cfa689d:-1910536100,d4a9d914ab52db0081c55a521ddf2441:-457786434</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_u_max_messages_per_request</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_max_messages_per_request" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Max messages per request&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;32&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_max_messages_per_request&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;75adf090db12db009c69f8231f961953&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Max messages per request&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_u_max_messages_per_request&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:46:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>563864277</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>d685a9d8db52db009c69f8231f961970</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1638473dde00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Max messages per request</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d705e1d80a52db00d83b6d3dfcb3d753</update_guid>
+<update_guid_history>d705e1d80a52db00d83b6d3dfcb3d753:563864277,e9d31510db52db007f9bb4835f0d93ca:-876690153,8a2e74d07712db00457065175a3536bd:1129522882</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_storage_account_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_storage_account" label="Storage account" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_storage_account</element><help/><hint/><label>Storage account</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Storage accounts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>6e2eb4d0db12db009c69f8231f961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Storage account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_storage_account_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>837292031</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>d685a9d8db52db009c69f8231f961973</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d854f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Storage account</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>762eb4d01c12db003a861cfe55e65cb1</update_guid>
+<update_guid_history>762eb4d01c12db003a861cfe55e65cb1:837292031</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_922e74d0db12db009c69f8231f9619e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:20</sys_created_on><sys_id>922e74d0db12db009c69f8231f9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_azure_config_queue_integration">562e74d0db12db009c69f8231f9619e0</sys_security_acl><sys_update_name>sys_security_acl_role_922e74d0db12db009c69f8231f9619e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:20</sys_updated_on><sys_user_role display_value="u_azure_config_queue_integration_user" name="u_azure_config_queue_integration_user">312e34d0db12db009c69f8231f96198a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1190189096</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>d685a9d8db52db009c69f8231f961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84db40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration.u_azure_config_queue_integration_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>962e74d0d512db00f7c490c581e827e6</update_guid>
+<update_guid_history>962e74d0d512db00f7c490c581e827e6:1190189096</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_2a2eb4d0db12db009c69f8231f96191c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_azure_config_queue_integration</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:22</sys_created_on><sys_id>2a2eb4d0db12db009c69f8231f96191c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_2a2eb4d0db12db009c69f8231f96191c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:22</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-171673096</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>d685a9d8db52db009c69f8231f9619db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d851ca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table/>
+<target_name>u_azure_config_queue_integration</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>6a2eb4d02512db00baf0cf88f856051d</update_guid>
+<update_guid_history>6a2eb4d02512db00baf0cf88f856051d:-171673096</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_azure_config_queue_integration_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_azure_config_queue_integration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_azure_config_queue_integration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 17:56:21&lt;/sys_created_on&gt;&lt;sys_id&gt;1a2e74d0db12db009c69f8231f9619f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_azure_config_queue_integration&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_azure_config_queue_integration_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 17:56:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-119366560</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>da85a9d8db52db009c69f8231f96196f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d854150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3a2eb4d06d12db008531e6e69ce13020</update_guid>
+<update_guid_history>3a2eb4d06d12db008531e6e69ce13020:-119366560</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_name" label="Name" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_name</element><help/><hint/><label>Name</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>6a2eb4d0db12db009c69f8231f961911</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2084729965</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>da85a9d8db52db009c69f8231f961972</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d854d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f22eb4d08512db0057e711fc24bb88b0</update_guid>
+<update_guid_history>f22eb4d08512db0057e711fc24bb88b0:-2084729965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_522e74d0db12db009c69f8231f9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_azure_config_queue_integration</description><name>u_azure_config_queue_integration</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>522e74d0db12db009c69f8231f9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_azure_config_queue_integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_522e74d0db12db009c69f8231f9619ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 17:56:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1351580357</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>da85a9d8db52db009c69f8231f961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383d84e6d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>u_azure_config_queue_integration</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>162e74d09e12db00beb44b8973456eef</update_guid>
+<update_guid_history>162e74d09e12db00beb44b8973456eef:1351580357</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_31bff4d0db12db009c69f8231f9619cb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Run One Time Poll&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var azureQueueProbeRunner = new AzureQueueProbeRunner();
+var ecc_queue_id = azureQueueProbeRunner.runProbe(current);
+var returnURL = "ecc_queue_list.do?sysparm_query=sys_id%3D" + ecc_queue_id + "%5EORresponse_to%3D" + ecc_queue_id;
+gs.setRedirect(returnURL);]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 18:05:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;31bff4d0db12db009c69f8231f9619cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Run One Time Poll&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_31bff4d0db12db009c69f8231f9619cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 18:06:18&lt;/sys_updated_on&gt;&lt;table&gt;u_azure_config_queue_integration&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-244424914</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>da85a9d8db52db009c69f8231f9619da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16383e16bae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Run One Time Poll</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>887049144812db00e84f2b9bc56a6a34</update_guid>
+<update_guid_history>887049144812db00e84f2b9bc56a6a34:-244424914,18504914e912db002062724182595023:1931993271</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ecc_agent_script_include_3ca74850db9e9b009c69f8231f961936</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="ecc_agent_script_include"&gt;&lt;ecc_agent_script_include action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;Patch to override which token manager is used to address PRB1281581 temporarily&lt;/description&gt;&lt;name&gt;AzureStorageAPIInvoker_ConfigPatch&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AzureStorageAPIInvoker_ConfigPatch = Class.create();
+AzureStorageAPIInvoker_ConfigPatch.prototype = Object.extendsObject(AzureStorageAPIInvoker, {
+	
+	getToken: function(headers) {
+		var tokenMgr = new AzureStorageTokenManager_ConfigPatch();
+		var method = this.method || 'get';
+		var token = tokenMgr.getStorageAuthorization(this.endpointUrl, method, headers, this.accountName, this.accountKey);
+		return token;
+	},
+
+	type: 'AzureStorageAPIInvoker_ConfigPatch'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;ecc_agent_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 13:58:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3ca74850db9e9b009c69f8231f961936&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;AzureStorageAPIInvoker_ConfigPatch&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Cloud API" source="sn_capi"&gt;0f7325250b21220033bc05ae37673a53&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;ecc_agent_script_include_3ca74850db9e9b009c69f8231f961936&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 14:46:54&lt;/sys_updated_on&gt;&lt;/ecc_agent_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2137632608</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>de85a9d8db52db009c69f8231f96196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163832adf140000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table/>
+<target_name>AzureStorageAPIInvoker_ConfigPatch</target_name>
+<type>MID Server Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>17c290589d9e9b00d42dd0d0206686ec</update_guid>
+<update_guid_history>17c290589d9e9b00d42dd0d0206686ec:2137632608,318218d45d9e9b00504810b6a74653a8:1321846762,a352d018ac9e9b00d1ccdb26d8363687:1436898062,21d0dc94209e9b00895605400881cab8:1943354089,7b10d494029e9b00c471053515d980f8:-123355415,5c3b4014ad9e9b0084400628ca0712ca:-824535608,63da88d0349e9b00bbfcf092a227bbfe:-1385632573,b32a84d0ba9e9b008078158207823323:-1594943536,30a74850b39e9b00e89ad316a4c38d38:747567481</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_azure_config_queue_integration_u_credentials_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_credentials" label="Azure account" language="en" table="u_azure_config_queue_integration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_credentials</element><help/><hint/><label>Azure account</label><language>en</language><name>u_azure_config_queue_integration</name><plural>Azure accounts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-05-21 17:56:21</sys_created_on><sys_id>662eb4d0db12db009c69f8231f96190e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Azure account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_azure_config_queue_integration_u_credentials_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-05-21 19:30:52</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>450246449</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:22</sys_created_on>
+<sys_id>de85a9d8db52db009c69f8231f961971</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163842ed6d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:22</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Azure Config Queue Integration.Azure account</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>bec3d5103e52db00fd2a3dee6e31faa3</update_guid>
+<update_guid_history>bec3d5103e52db00fd2a3dee6e31faa3:450246449,322eb4d0ef12db002e8713d5c26162ae:-1177925088</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8efadd14db52db009c69f8231f96198c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_azure_config_queue_integration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_azure_config_queue_integration"&gt;u_max_messages_per_requestVALCHANGES^u_max_messages_per_request&amp;gt;32^ORu_max_messages_per_request&amp;lt;1^EQ&lt;item endquery="false" field="u_max_messages_per_request" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="u_max_messages_per_request" goto="false" newquery="false" operator="&amp;gt;" or="false" value="32"/&gt;&lt;item endquery="false" field="u_max_messages_per_request" goto="false" newquery="false" operator="&amp;lt;" or="true" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Max Messages&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if(current.u_max_messages_per_request&lt;1){
+		current.u_max_messages_per_request = 1;
+		gs.addInfoMessage('Max Messages must be between 1 and 32.  Resetting to 1');
+	}
+	if(current.u_max_messages_per_request&gt;32){
+		current.u_max_messages_per_request = 32;
+		gs.addInfoMessage('Max Messages must be between 1 and 32.  Resetting to 32');
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-21 20:03:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;8efadd14db52db009c69f8231f96198c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Max Messages&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8efadd14db52db009c69f8231f96198c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-21 20:03:45&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8efadd14db52db009c69f8231f96198c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1624976529</payload_hash>
+<remote_update_set display_value="Azure Config Queue Integration v1.0">de85a9d8db52db009c69f8231f96196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-21 20:48:23</sys_created_on>
+<sys_id>de85a9d8db52db009c69f8231f961974</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163844cf49f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-21 20:48:23</sys_updated_on>
+<table>u_azure_config_queue_integration</table>
+<target_name>Validate Max Messages</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>705b9554d252db003e6ee2675b027fc0</update_guid>
+<update_guid_history>705b9554d252db003e6ee2675b027fc0:1624976529</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
